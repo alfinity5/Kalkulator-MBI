@@ -4,9 +4,8 @@ Aplikasi desktop berbasis **JavaFX** dan **Scene Builder (FXML)** untuk menghitu
 
 ## Tampilan Aplikasi (Screenshot)
 
+<img width="1920" height="1080" alt="Screenshot (386)" src="https://github.com/user-attachments/assets/d8c5ceca-7bda-4840-a4a1-0c2eb935c535" />
 
-
-*(Catatan: Simpan tangkapan layar aplikasi kamu dengan nama `tampilan-gui.png` di dalam folder `screenshots/` pada proyek ini).*
 
 ## Fitur Utama
 
@@ -44,6 +43,7 @@ CalculatorMBI/
 ├── pom.xml
 └── README.md
 ```
+
 
 ## Penerapan Konsep OOP
 
