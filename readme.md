@@ -54,18 +54,21 @@ CalculatorMBI/
 | **Inheritance** | Kelas `PasienPria` dan `PasienWanita` mewarisi (`extends`) atribut dan metode dari kelas induk `Pasien`. |
 | **Polymorphism** | Objek bertipe referensi `Pasien` dapat diinstansiasi sebagai `PasienPria` atau `PasienWanita`, lalu memanggil `@Override hitungBeratIdeal()` sesuai rumus masing-masing. |
 
-## Prasyarat Sistem
-
-* **Java Development Kit (JDK)**: Versi 17 atau 21 ke atas
-* **Apache Maven**: Terintegrasi dengan IDE (Apache NetBeans / IntelliJ IDEA / Eclipse)
-* **JavaFX Scene Builder**: Untuk membuka dan memodifikasi file `form-bmi.fxml`
 
 ## Cara Menjalankan Proyek
 
-1. Clone repositori ini ke komputer lokal:
-   ```bash
-   git clone https://github.com/username-kamu/CalculatorMBI.git
-   ```
-2. Buka proyek menggunakan **Apache NetBeans IDE** melalui menu **File > Open Project** dan pilih folder `CalculatorMBI`.
-3. Untuk menjalankan versi GUI, klik kanan pada file `main.MainApp.java` lalu pilih **Run File** (`Shift + F6`).
-4. Untuk menjalankan versi konsol/terminal, klik kanan pada file `main.DemoTerminalMode.java` lalu pilih **Run File** (`Shift + F6`).
+1. Buka Apache NetBeans IDE, lalu pilih menu File > Open Project... dan arahkan ke folder proyek ini.
+
+2. Klik kanan pada nama proyek di panel Projects, lalu pilih Clean and Build (Shift + F11) agar Maven mengunduh seluruh dependensi JavaFX (javafx-controls dan javafx-fxml).
+
+* **Untuk Menjalankan Mode GUI (Tampilan Kalkulator Visual)**:
+
+Buka Source Packages > main > MainApp.java.
+
+Klik kanan pada MainApp.java, lalu pilih Run File (atau tekan shortcut Shift + F6).
+
+Untuk Menjalankan Mode Terminal (Konsol CLI):
+
+Buka Source Packages > main > DemoTerminalMode.java.
+
+Klik kanan pada DemoTerminalMode.java, lalu pilih Run File (atau tekan shortcut Shift + F6).
