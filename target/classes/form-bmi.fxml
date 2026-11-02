@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox spacing="14.0" prefWidth="440.0" prefHeight="500.0" style="-fx-background-color: #f8fafc;"
+      xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="controller.BmiController">
+    <padding>
+        <Insets top="28.0" right="28.0" bottom="28.0" left="28.0"/>
+    </padding>
+
+    <Label text="Kalkulator BMI &amp; Berat Ideal" style="-fx-text-fill: #0f172a;">
+        <font>
+            <Font name="System Bold" size="20.0"/>
+        </font>
+    </Label>
+
+    <Label text="Masukkan jenis kelamin, berat badan, dan tinggi badan untuk melihat klasifikasi BMI."
+           wrapText="true" style="-fx-text-fill: #475569;"/>
+
+    <VBox spacing="6.0">
+        <Label text="Jenis Kelamin" style="-fx-font-weight: bold;"/>
+        <ComboBox fx:id="genderBox" maxWidth="1.7976931348623157E308"/>
+    </VBox>
+
+    <VBox spacing="6.0">
+        <Label text="Berat Badan (kg)" style="-fx-font-weight: bold;"/>
+        <TextField fx:id="beratField" promptText="Contoh: 60"/>
+    </VBox>
+
+    <VBox spacing="6.0">
+        <Label text="Tinggi Badan (cm)" style="-fx-font-weight: bold;"/>
+        <TextField fx:id="tinggiField" promptText="Contoh: 165"/>
+    </VBox>
+
+    <HBox spacing="10.0">
+        <Button text="Hitung BMI" onAction="#hitung" defaultButton="true"
+                style="-fx-background-color: #2563eb; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 8 18 8 18;"/>
+        <Button text="Reset" onAction="#reset"
+                style="-fx-background-color: #e2e8f0; -fx-text-fill: #1e293b; -fx-padding: 8 18 8 18;"/>
+    </HBox>
+
+    <VBox spacing="6.0" style="-fx-background-color: #ffffff; -fx-border-color: #cbd5e1; -fx-border-radius: 6; -fx-background-radius: 6;">
+        <padding>
+            <Insets top="14.0" right="14.0" bottom="14.0" left="14.0"/>
+        </padding>
+        <Label text="Hasil Perhitungan &amp; Klasifikasi:" style="-fx-font-weight: bold; -fx-text-fill: #334155;"/>
+        <Label fx:id="hasilLabel" text="Silakan masukkan data untuk menghitung BMI." wrapText="true"/>
+    </VBox>
+</VBox>

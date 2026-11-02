@@ -1,0 +1,6 @@
+model\PasienPria.class
+controller\BmiController.class
+model\Pasien.class
+model\PasienWanita.class
+main\DemoTerminalMode.class
+main\MainApp.class
