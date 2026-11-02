@@ -61,14 +61,12 @@ CalculatorMBI/
 
 2. Klik kanan pada nama proyek di panel Projects, lalu pilih Clean and Build (Shift + F11) agar Maven mengunduh seluruh dependensi JavaFX (javafx-controls dan javafx-fxml).
 
-* **Untuk Menjalankan Mode GUI (Tampilan Kalkulator Visual)**:
+3. Untuk Menjalankan Mode GUI (Tampilan Kalkulator Visual):
 
-Buka Source Packages > main > MainApp.java.
+* Buka Source Packages > main > MainApp.java.
+* Klik kanan pada MainApp.java, lalu pilih Run File (atau tekan shortcut Shift + F6).
 
-Klik kanan pada MainApp.java, lalu pilih Run File (atau tekan shortcut Shift + F6).
+4. Untuk Menjalankan Mode Terminal (Konsol CLI):
 
-Untuk Menjalankan Mode Terminal (Konsol CLI):
-
-Buka Source Packages > main > DemoTerminalMode.java.
-
-Klik kanan pada DemoTerminalMode.java, lalu pilih Run File (atau tekan shortcut Shift + F6).
+* Buka Source Packages > main > DemoTerminalMode.java.
+* Klik kanan pada DemoTerminalMode.java, lalu pilih Run File (atau tekan shortcut Shift + F6).
