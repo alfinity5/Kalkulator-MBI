@@ -20,29 +20,6 @@ Aplikasi desktop berbasis **JavaFX** dan **Scene Builder (FXML)** untuk menghitu
 * **Validasi Input & Penanganan Eksepsi**: Memvalidasi input kosong, format non-angka (`NumberFormatException`), serta nilai berat atau tinggi badan di luar batas wajar (`IllegalArgumentException`) dengan pesan peringatan berwarna merah pada antarmuka.
 * **Mode Terminal & GUI**: Menyediakan kelas `MainApp` untuk tampilan antarmuka grafis (JavaFX) dan `DemoTerminalMode` untuk pengujian cepat melalui konsol/terminal.
 
-## Struktur Proyek
-
-```text
-CalculatorMBI/
-├── screenshots/
-│   └── tampilan-gui.png                    # Gambar screenshot aplikasi untuk README
-├── src/
-│   └── main/
-│       ├── java/
-│       │   ├── controller/
-│       │   │   └── BmiController.java      # Mengatur event UI dan menghubungkan FXML dengan Model
-│       │   ├── main/
-│       │   │   ├── MainApp.java            # Entry point aplikasi GUI JavaFX
-│       │   │   └── DemoTerminalMode.java   # Entry point pengujian di terminal (CLI)
-│       │   └── model/
-│       │       ├── Pasien.java             # Abstract superclass untuk data, rumus BMI, dan klasifikasi
-│       │       ├── PasienPria.java         # Subclass untuk perhitungan berat ideal pria
-│       │       └── PasienWanita.java       # Subclass untuk perhitungan berat ideal wanita
-│       └── resources/
-│           └── form-bmi.fxml               # File desain antarmuka Scene Builder
-├── pom.xml
-└── README.md
-```
 
 
 ## Penerapan Konsep OOP
