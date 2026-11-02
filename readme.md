@@ -39,11 +39,9 @@ Aplikasi desktop berbasis **JavaFX** dan **Scene Builder (FXML)** untuk menghitu
 2. Klik kanan pada nama proyek di panel Projects, lalu pilih Clean and Build (Shift + F11) agar Maven mengunduh seluruh dependensi JavaFX (javafx-controls dan javafx-fxml).
 
 3. Untuk Menjalankan Mode GUI (Tampilan Kalkulator Visual):
-
-* Buka Source Packages > main > MainApp.java.
-* Klik kanan pada MainApp.java, lalu pilih Run File (atau tekan shortcut Shift + F6).
+   * Buka Source Packages > main > MainApp.java.
+   * Klik kanan pada MainApp.java, lalu pilih Run File (atau tekan shortcut Shift + F6).
 
 4. Untuk Menjalankan Mode Terminal (Konsol CLI):
-
-* Buka Source Packages > main > DemoTerminalMode.java.
-* Klik kanan pada DemoTerminalMode.java, lalu pilih Run File (atau tekan shortcut Shift + F6).
+   * Buka Source Packages > main > DemoTerminalMode.java.
+   * Klik kanan pada DemoTerminalMode.java, lalu pilih Run File (atau tekan shortcut Shift + F6).
